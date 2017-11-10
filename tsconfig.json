@@ -1,8 +1,26 @@
 {
+  
   "compilerOptions": {
-    "target": "es6",
+    "allowJs": false,
+    "baseUrl": "",
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "sourceMap": true,
+    "mapRoot": "./dist/",
     "module": "commonjs",
-    "outDir": "dist"
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "outDir": "dist",    
+    "target": "es6",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "watch": true
   },
   "include": [
     "src/**/*.ts"
