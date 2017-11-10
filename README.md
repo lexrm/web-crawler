@@ -1,18 +1,19 @@
 # Developing a RESTful API With Node and TypeScript
 
-## Want to learn how to build this project?
-
-Check out the [blog post](http://mherman.org/blog/2016/11/05/developing-a-restful-api-with-node-and-typescript/#.WB3zyeErJE4).
-
 ## Want to use this project?
 
 1. Fork/Clone
-1. Install dependencies - `npm install`
-1. Compile - `npm run build`
-1. Compile assets - `gulp assets`
-1. Run the development server - `npm start`
-1. Test - `npm test`
+2. Install dependencies - `npm install`
+3. Compile - `npm run build`
+4. Compile assets - `gulp assets`
+5. Run the development server - `npm start`
+6. Test - `npm test`
 
-## Sample Projects
+usage:
+http://localhost:3000/api/v1/google.com
 
-- [Simple whois REST API](https://github.com/wingsuitist/whoissv)
+where instead of google could be any domain name (with subdomains to the left of the top-level domain)
+
+note:
+current version of crawler collecting links on a web page for first level only.
+
